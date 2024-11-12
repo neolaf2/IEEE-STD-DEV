@@ -1,0 +1,37 @@
+ieee-standard-project/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   │   └── standard_change_proposal.md
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └── workflows/
+│       └── pages-deploy.yml
+├── docs/
+│   ├── _includes/
+│   ├── _layouts/
+│   ├── assets/
+│   │   ├── css/
+│   │   ├── images/
+│   │   └── js/
+│   ├── specifications/
+│   │   └── index.md
+│   ├── guidelines/
+│   │   ├── development.md
+│   │   ├── review-process.md
+│   │   └── security.md
+│   ├── governance/
+│   │   ├── decision-making.md
+│   │   └── ipr-policy.md
+│   ├── _config.yml
+│   └── index.md
+├── working-documents/
+│   ├── draft-specifications/
+│   ├── meeting-minutes/
+│   └── proposals/
+├── reference-implementations/
+│   └── README.md
+├── CONTRIBUTING.md
+├── LICENSE.md
+├── CODE_OF_CONDUCT.md
+└── README.md 

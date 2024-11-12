@@ -1,0 +1,44 @@
+# Site settings
+title: IEEE Standard Development Project
+description: >-
+  Official website for the development of IEEE Standard [Number/Name]
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - specifications/index.md
+  - guidelines/development.md
+  - governance/ipr-policy.md
+  - about.md
+
+# Collections
+collections:
+  specifications:
+    output: true
+    permalink: /:collection/:path/
+  guidelines:
+    output: true
+    permalink: /:collection/:path/
+  governance:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "specifications"
+    values:
+      layout: "specification" 
