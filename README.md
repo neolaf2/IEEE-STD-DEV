@@ -22,7 +22,7 @@ Status: [Draft/Review/Approved]
 We welcome participation from individuals and organizations interested in contributing to this standard's development. Please see our [Contributing Guidelines](CONTRIBUTING.md) for more information.
 
 ## License and IPR
-This project follows the [Community Specification License](LICENSE.md). All contributions must comply with our [IPR Policy](docs/governance/ipr-policy.md).
+This project follows the [IEEE License](LICENSE.md). All contributions must comply with our [IPR Policy](docs/governance/ipr-policy.md).
 
 ## Contact
 - Working Group Chair: [Name](mailto:email)
